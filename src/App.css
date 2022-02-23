@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.25vh solid #c0bbbb;
+  margin-bottom: 10vh;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+  width: 75%;
+}
+
+.title {
+  font-weight: 300;
+  margin-bottom: 2.5vh;
+}
+
+.tip {
+  font-weight: 400;
+  font-style: italic;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 15vh;
+  padding: 1vh;
+  border-radius: 1vh;
+  background-color: #ffffff;
+  box-shadow: 0vh 0vh 1vh #c0bbbb;
+}
+
+.input {
+  width: 80%;
+  height: 60%;
+  margin-right: 5vh;
+  padding-left: 5vh;
+  font-size: 1.5em;
+  border-color: transparent;
+  border-bottom: 0.3vh solid #c0bbbb;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.input:focus {
+  outline: none;
+  border-bottom: 0.25vh solid #37c0e2;
+  transition: 0.5s ease-in-out;
+}
+
+.button-submit {
+  height: 50%;
+  width: 15vh;
+  font-size: 0.85em;
+  font-weight: 500;
+  background-color: #d1eeff;
+  border: none;
+  border-radius: 1vh;
+  font-family: 'Open Sans', sans-serif;
+  color: #07439c;
+  cursor: pointer;
+}
+
+.button-submit:hover {
+  background-color: #bad5fd;
+  transition: 0.25s ease-in-out;
+}
+
+.list {
+  width: 70%;
+  margin: 5vh 0vh 5vh 0vh;
+  list-style-type: none;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  overflow: hidden;
+  background-color: #ffffff;
+  margin: 2.5vh 0vh 2.5vh 0vh;
+  padding: 2.5vh;
+  border-radius: 1vh;
+  font-weight: 400; 
+  box-shadow: 0vh 0vh 1vh #c0bbbb;
+}
+
+.todo:hover {
+  transition: 0.25s ease-in-out;
+  box-shadow: 0vh 0vh 1.5vh #424242d7;
+}
+
+.delete {
+  background-color: #ffc5c5;
+  color: #b80101;
+  height: 5vh;
+}
+
+.delete:hover {
+  background-color: #ec9898;
+  transition: 0.25s ease-in-out;
+}
+
+.edit {
+  font-size: 1em;
+  padding-bottom: 0.5vh;
+}
+
+.button-confirm {
+  height: 5vh;
+  background-color: #aceba4;
+  color: #14500c;
+}
+
+.button-confirm:hover {
+  background-color: #67b467;
+  transition: 0.25s ease-in-out;
+}
